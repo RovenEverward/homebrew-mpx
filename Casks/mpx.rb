@@ -3,7 +3,6 @@ cask "mpx" do
   sha256 "3816427279a03ed5ff25979c6014e462382b576ed4e56a9bf96968a5960edab2"
 
   url "https://github.com/RovenEverward/my-proxy/releases/download/v#{version}/MPX-#{version}-macOS.dmg",
-      verified: "github.com/RovenEverward/my-proxy/"
   name "MPX"
   desc "自建 xray / sing-box 多节点代理控制面(带 mpx 命令行)"
   homepage "https://github.com/RovenEverward/my-proxy"
