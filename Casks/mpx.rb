@@ -9,6 +9,8 @@ cask "mpx" do
   homepage "https://github.com/RovenEverward/my-proxy"
 
   auto_updates true
+  # 包未签名,隔离标记会让内核直接杀掉 app 与 CLI(签名在 roadmap,见 README)。
+  no_quarantine true
 
   app "MPX.app"
   # 把 app 内的同一个 mpx 链接进 brew 的 bin:CLI 与桌面永远同版本,
